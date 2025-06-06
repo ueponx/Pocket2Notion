@@ -1,0 +1,15 @@
+# Notion設定
+# Notion Integration Tokenを設定してください
+# https://www.notion.so/my-integrations で作成できます
+NOTION_TOKEN=secret_your_integration_token_here
+
+# NotionデータベースのIDを設定してください
+# データベースのURLから取得できます: https://www.notion.so/workspace/database_id?v=view_id
+NOTION_DATABASE_ID=your_database_id_here
+
+# Pocketエクスポートファイルのパス（オプション、デフォルト: pocket.zip）
+# CSVファイル単体の場合は .csv、ZIPファイルの場合は .zip
+POCKET_FILE=pocket.zip
+
+# API呼び出し間隔（秒）- Notionのレート制限対策（オプション、デフォルト: 0.3）
+API_DELAY=0.3
