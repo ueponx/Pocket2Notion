@@ -1,0 +1,2 @@
+# Pocket2Notion
+PocketのエクスポートデータをNotionへ取り込む
